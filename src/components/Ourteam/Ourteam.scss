@@ -1,0 +1,196 @@
+.Ourteam{
+    .title{
+        width: 68%;
+        h1{
+            position: relative;
+            display: inline;
+            font-size: 24px;
+            color: white;
+            font-weight: 300;
+            .vector{
+                position: absolute;
+                top: -40%;
+                right: -10%;
+                object-fit: cover;
+            }
+        }
+        p{
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 50px;
+        }
+    }
+    .boxes{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 6%;
+        .box{
+            mix-blend-mode: luminosity;
+            text-align: center;
+            h4{
+                color: white;
+                font-size: 16px;
+                font-weight: 600 !important;
+            }
+            span{
+                color: white;
+                font-size: 15px;
+                font-weight: 100 !important;
+            }
+        }
+    }
+    .title2{
+        margin-top: 5%;
+        h1{
+            position: relative;
+            display: inline;
+            font-size: 24px;
+            color: white;
+            font-weight: 300;
+            .vector{
+                position: absolute;
+                top: -40%;
+                right: -5%;
+                object-fit: cover;
+            }
+        }
+
+        .t{
+            margin-top: 3%;
+            display: flex;
+            gap: 50px;
+            h2{
+                color: rgba(255, 255, 255, 0.658);
+                font-size: 28px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 447px) and (max-width: 769px){
+    .Ourteam{
+        .title{
+            width: 100%;
+            h1{
+                position: relative;
+                display: inline;
+                font-size: 24px;
+                color: white;
+                font-weight: 300;
+                .vector{
+                    position: absolute;
+                    top: -40%;
+                    right: -10%;
+                    object-fit: cover;
+                }
+            }
+            p{
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.5);
+                margin-top: 50px;
+            }
+        }
+        .boxes{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 6%;
+            .box{
+                mix-blend-mode: luminosity;
+                text-align: center;
+                h4{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600 !important;
+                }
+                span{
+                    color: white;
+                    font-size: 15px;
+                    font-weight: 100 !important;
+                }
+            }
+        }
+        .title2{
+            margin-top: 70px;
+            h1{
+                position: relative;
+                display: inline;
+                font-size: 24px;
+                color: white;
+                font-weight: 300;
+                .vector{
+                    position: absolute;
+                    top: -40%;
+                    right: -5%;
+                    object-fit: cover;
+                }
+            }
+    
+            .t{
+                margin-top: 50px;
+                display: block;
+                gap: 0px;
+                h2{
+                    color: rgba(255, 255, 255, 0.658);
+                    font-size: 20px;
+                    font-weight: 300;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    .Ourteam{
+        .title{
+            width: 100%;
+            h1{
+                position: relative;
+                display: inline;
+                font-size: 24px;
+                color: white;
+                font-weight: 300;
+                .vector{
+                    position: absolute;
+                    top: -40%;
+                    right: -10%;
+                    object-fit: cover;
+                }
+            }
+            p{
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.5);
+                margin-top: 50px;
+            }
+        }
+        .boxes{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 6%;
+            .box{
+                mix-blend-mode: luminosity;
+                text-align: center;
+                h4{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600 !important;
+                }
+                span{
+                    color: white;
+                    font-size: 15px;
+                    font-weight: 100 !important;
+                }
+            }
+        }
+    }
+}

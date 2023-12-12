@@ -1,0 +1,154 @@
+.Ourvalues{
+    margin-top: 50px;
+    .title{
+        width: 100%;
+        h1{
+            position: relative;
+            display: inline;
+            font-size: 24px;
+            color: white;
+            font-weight: 300;
+            .vector{
+                position: absolute;
+                top: -40%;
+                right: -10%;
+                object-fit: cover;
+            }
+        }
+    }
+    .boxes{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+            .box{
+            width: 40%;
+            display: flex; 
+            margin: 50px 0;
+            .icons{
+                font-size: 45px;
+                color: #FF6600;
+                
+            }
+            .text{
+                margin: 0 20px;
+                h2{
+                    font-size: 24px;
+                    color: white;
+                    font-weight: 300;
+                }
+                p{
+                    font-size: 14px;
+                    color: rgba(255, 255, 255, 0.5);
+                    font-weight: 100;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 447px) and (max-width: 769px){
+    .Ourvalues{
+        margin-top: 50px;
+        .title{
+            width: 100%;
+            h1{
+                position: relative;
+                display: inline;
+                font-size: 24px;
+                color: white;
+                font-weight: 300;
+                .vector{
+                    position: absolute;
+                    top: -40%;
+                    right: -10%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .boxes{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+                .box{
+                width: 100%;
+                display: flex; 
+                margin: 50px 0;
+                .icons{
+                    font-size: 45px;
+                    color: #FF6600;
+                }
+                .text{
+                    margin: 0 20px;
+                    h2{
+                        font-size: 24px;
+                        color: white;
+                        font-weight: 300;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: rgba(255, 255, 255, 0.5);
+                        font-weight: 100;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    .Ourvalues{
+        margin-top: 50px;
+        .title{
+            width: 100%;
+            h1{
+                position: relative;
+                display: inline;
+                font-size: 24px;
+                color: white;
+                font-weight: 300;
+                .vector{
+                    position: absolute;
+                    top: -40%;
+                    right: -10%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .boxes{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+                .box{
+                width: 100%;
+                display: flex; 
+                margin: 50px 0;
+                .icons{
+                    font-size: 45px;
+                    color: #FF6600;
+                }
+                .text{
+                    margin: 0 20px;
+                    h2{
+                        font-size: 24px;
+                        color: white;
+                        font-weight: 300;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: rgba(255, 255, 255, 0.5);
+                        font-weight: 100;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
