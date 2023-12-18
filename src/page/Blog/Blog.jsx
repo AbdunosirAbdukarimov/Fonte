@@ -21,7 +21,7 @@ const Blog = () => {
   return (
     <div>
         <Nav/>
-        <main>
+        <main className='Blog'>
             <div className="title">
                 <h1>Блог  <img src="../../../public/images/Vector.png" alt="" className='vector'/></h1>            
             </div>

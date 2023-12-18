@@ -9,7 +9,7 @@ const Prodinfo = () => {
   return (
     <div>
         <Nav/>
-        <main>
+        <main className='Prodinfo'>
             <h3>Продукты <span>/ Хедж-фонд</span></h3>
             <div className="title">
                 <h1>Хедж-фонд<img src="../../../public/images/Vector.png" alt="" className='vector'/></h1>            

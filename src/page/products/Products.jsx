@@ -21,7 +21,7 @@ const Products = () => {
   return (
     <div>
         <Nav/>
-        <main>
+        <main className='Products'>
           <div className="title">
               <h1>Продукты <img src="../../../public/images/Vector.png" alt="" className='vector'/></h1>            
           </div>

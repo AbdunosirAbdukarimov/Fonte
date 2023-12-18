@@ -7,7 +7,7 @@ const BlogInfo = () => {
   return (
     <div>
         <Nav/>
-        <main>
+        <main className='BlogInfo'>
             <div className="top">
                 <h3>Блог <span>/ Минфин предложил единый</span></h3>
                 <h1>Минфин предложил единый 

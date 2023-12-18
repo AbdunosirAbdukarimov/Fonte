@@ -7,7 +7,7 @@ const Contacts = () => {
   return (
     <div>
         <Nav/>
-        <main>
+        <main className='Contacts'>
         <div className="main">  
             <div className="title">
                 <h1>Контакты <img src="../../../public/images/Vector.png" alt="" className='vector'/></h1>    
